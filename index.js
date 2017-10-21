@@ -23,6 +23,9 @@ function dec(a) {
 }
 
 function makeInt(n) {
+  if (n === 0 ) {
+    console.log (NaN)
+  }
   return parseInt('n', 10)
 }
 
