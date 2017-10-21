@@ -22,10 +22,7 @@ function dec(a) {
   return a -= 1
 }
 
-function makeInt(n) {
-  if (n === 0 ) {
-    console.log (NaN)
-  }
+function makeInt(parseInt(n)) {
   return parseInt('n', 10)
 }
 
